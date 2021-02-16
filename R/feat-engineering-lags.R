@@ -1,3 +1,9 @@
+## Code to turn-off warnings
+defaultW <- getOption("warn")
+options(warn = -1)
+# run at end to turn warnings back on
+options(warn = defaultW)
+
 ## ----load-in-packages------------------------------------------------------------------------
 library(tidyverse)
 library(lubridate)
