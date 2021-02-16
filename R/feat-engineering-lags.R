@@ -4,7 +4,8 @@ library(lubridate)
 library(tidymodels)
 
 ## --------------------------------------------------------------------------------------------
-read_csv <- read_csv(here::here("data", "inspections-restaurants.csv"))
+# inspections_restaurants <- read_csv(here::here("data", "inspections-restaurants.csv"))
+inspections_restaurants <- read_csv("https://raw.githubusercontent.com/brshallo/feat-eng-lags-presentation/main/data/inspections-restaurants.csv")
 
 
 ## ----time-based-features---------------------------------------------------------------------
