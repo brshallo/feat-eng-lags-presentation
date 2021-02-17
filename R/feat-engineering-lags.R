@@ -135,9 +135,9 @@ avg_perf <- map(list(lm_workflow_rs, rf_workflow_rs, null_workflow_rs),
 
 
 ## ----extract-performance-each-split----------------------------------------------------------
-extract_splits_metrics <- function(rs_obj, name){
+extract_splits_metrics <- function(wf_obj, name){
   
-  rs_obj %>% 
+  wf_obj %>% 
     select(id, .metrics) %>% 
     unnest(.metrics) %>% 
     mutate(source = name)
