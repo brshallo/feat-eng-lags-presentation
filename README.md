@@ -1,5 +1,5 @@
 # feat-eng-lags-presentation
-Materials for 2021 presentation on "Feature Engineering with Sliding Windows and Lagged Inputs." 
+Materials for 2021 presentations on "Feature Engineering with Sliding Windows and Lagged Inputs." 
 
 * Presented to Research Triangle Analysts Meetup 
 * as well as [updated slides](https://github.com/brshallo/feat-eng-lags-presentation/blob/main/presentations/rstats-wsu.pdf) for presentation to WSU R user group and [recording](https://www.youtube.com/watch?t=829&v=-wUzdeThODo&feature=youtu.be).
